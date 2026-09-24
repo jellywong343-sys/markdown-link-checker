@@ -1,0 +1,11 @@
+{
+  "name": "markdown-link-checker",
+  "description": "Check Markdown files for broken local links, duplicate URLs, and optional external HTTP failures.",
+  "topics": [
+    "python",
+    "markdown",
+    "link-checker",
+    "documentation",
+    "cli"
+  ]
+}

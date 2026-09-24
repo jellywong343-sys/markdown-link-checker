@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "markdown-link-checker"
+version = "1.0.0"
+description = "Check Markdown files for broken local links, duplicate URLs, and optional external HTTP failures."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "jellywong343-sys" }]
+dependencies = []
+keywords = ["python","markdown","link-checker","documentation","cli"]
+
+[project.scripts]
+md-link-check = "markdown_link_checker.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
